@@ -17,7 +17,7 @@ def square_root(a):
             print(b)
 
 def hypotenuse(a, b):
-    math.hypot(a, b)
+    return math.hypot(a, b)
 
    # math.hypot(a,b)
 # First example
