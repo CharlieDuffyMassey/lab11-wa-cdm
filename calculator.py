@@ -14,10 +14,10 @@ def square_root(a):
 
     # if a < 0:
     #     raise ValueError
+
     # return math.sqrt(a)
 
-    if a < 0:
-        raise ValueError
+
     try:
         if a < 0:
             raise ValueError
