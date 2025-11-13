@@ -11,12 +11,24 @@ calculator.py
 One function per operation, in order.
 """
 def square_root(a):
+
+    # if a < 0:
+    #     raise ValueError
+
+    # return math.sqrt(a)
+
+
+
     try:
         if a < 0:
             raise ValueError
         return math.sqrt(a)
     except ValueError:
         raise ValueError
+    except ValueError as b:
+            raise ValueError
+
+
 
 def hypotenuse(a, b):
     return math.hypot(a, b)
