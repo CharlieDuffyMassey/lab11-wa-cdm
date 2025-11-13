@@ -1,3 +1,7 @@
+# https://github.com/CharlieDuffyMassey/lab11-wa-cdm
+# Partner 1: Charlie Duffy-Massey
+# Partner 2: William Ackley
+
 import math
 
 """
